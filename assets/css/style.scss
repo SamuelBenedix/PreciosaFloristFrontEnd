@@ -112,6 +112,61 @@ $gray-light:#ebebeb;
     }
   }
 
+    /*//////////////////////////////////////////////////////////////////
+[ Button wa ]*/
+
+
+  .btn-wa {
+	display: flex;
+	position: fixed;
+	width: 160px;
+	height: 38px;
+	bottom: 20px;
+	left: 40px;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	cursor: pointer;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s
+}
+
+  /*//////////////////////////////////////////////////////////////////
+[ Button to top ]*/
+
+  .btn-back-to-top {
+	display: none;
+	position: fixed;
+	width: 40px;
+	height: 38px;
+	bottom: 0px;
+	right: 40px;
+	background-color: #b09774;
+	opacity: 0.5;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	cursor: pointer;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+.symbol-btn-back-to-top {
+	font-size: 25px;
+	color: white;
+	line-height: 1em;
+}
+
+.btn-back-to-top:hover {
+	opacity: 1;
+	background-color: #b09774;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Navbar ]*/
@@ -630,6 +685,29 @@ $gray-light:#ebebeb;
     }
 }     
 
+
+.proceed-button{
+    background-color: $primary;
+    width: 80%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.466667;
+    color: $white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.4s;
+    margin: 0 8px 10px 0;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    border-radius:2px;
+
+    &:hover{
+        background-color: $hoverprimary;
+        color: $white;
+    }
+}  
 .primary-button-small{
     background-color: $primary;
     min-width: 179px;
@@ -1909,3 +1987,95 @@ td{
     vertical-align: middle;
     font-size: 15px;
 }
+
+.invoice-container{
+    max-width: 850px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  .invoice{
+    background-color: #efefef;
+  }
+  .paper{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 70px;
+  
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  
+
+ .grey-background{
+   background-color: rgba(242, 242, 242, 0.74);
+ }
+ 
+ .btn-border{
+   border: 1px solid #ddd;
+ }
+ 
+ .table-items{
+   border: 1px solid #ddd;
+   font-size: 14px;
+ }
+ .sb-font{
+   font-weight: 500;
+   text-align: left;
+ }
+ .r-font{
+   font-weight: 300;
+ }
+ 
+ .invoice-logo img{
+  max-width: 50%; 
+  display: block;
+ }
+
+ .unpaid{
+   color: #c00;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 27px;
+   letter-spacing: 1px;
+   padding-top: 27px;
+ }
+
+ .paid{
+	color: rgb(13, 199, 50);
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	letter-spacing: 1px;
+	padding-top: 27px;
+  }
+  .pending{
+	color: #dddddd;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	letter-spacing: 1px;
+	padding-top: 27px;
+  }
+ .mybreak{
+  display: block;
+  color: #737373;
+  font-size: 0.7571428571em;
+  line-height: 20px;
+  width:100%;
+}
+.payment-btn{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+	.invoice-logo img{
+	 margin: 0 auto;
+	}
+	.id-invoice{
+	  text-align: center;
+	}
+ }
