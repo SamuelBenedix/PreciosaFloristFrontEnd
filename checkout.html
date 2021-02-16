@@ -1,0 +1,294 @@
+<head>
+    <title>Home | Preciosa Florist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/Media/Logo/icon.png" />
+    <!--===============================================================================================-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/MagnificPopup/magnific-popup.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/perfect-scrollbar.css ?>">
+    <!--===============================================================================================-->
+     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+<body class="">
+
+<section class="checkout-header">
+    <div class="container">
+        <div class="text-align-center checkout">
+            <a href="index.html"> <img class="d-block mx-auto mb-2" src="assets/Media/Logo/Preciosa-Tegak.jpg" alt="logo"> </a>
+        </div>
+    </div>
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 mb-0 active  text-center">
+                    <a href="index.html" class="active-text">Home</a>
+                    <span class="mx-2 mb-0 active">/</span>
+                    <a href="cart.html" class="active-text">Cart</a>
+                    <span class="mx-2 mb-0">/</span>
+                    <strong class="text-black">Checkout</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="site-section">
+        <div class="container">
+            <form action="" method="POST" id="payment-form">
+                <div class="row mb-5 ">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <h2 class="h3 mb-3 order-title">Detail Order</h2>
+                        <input type="hidden" name="order_id" id="result-type" value=>
+                        <div class="p-3 p-lg-5 border mt-10">
+                            <label class=" text-black font-weight-bold"> Detail Pengiriman</label>
+                            <div class="form-group row  ">
+                                <div class="col-md-12 input-field">
+                                    <input type="email" class="form-control" id="sEmail" name="sEmail" required>
+                                    <label for="sEmail" class="input-label">Email </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="c_ship_different_address" class="text-black" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address">
+                                    <input type="checkbox" value="1" id="c_ship_different_address" name="sNews" checked>
+                                    <h6>Keep me up to date on news </h6>
+                                </label>
+                            </div>
+                            <hr class="divider my-3">
+                            <div class="form-group row  ">
+                                <div class="col-md-12 input-field">
+                                    <input type="text" class="form-control" id="sender" name="sender" required>
+                                    <label for="sender" class="input-label">Sender Name </label>
+                                </div>
+                            </div>
+                            <div class="form-group row  ">
+                                <div class="col-md-12 input-field">
+                                    <input type="text" class="form-control" id="sPhone" name="sPhone" required>
+                                    <label for="sPhone" class="input-label">Sender Phone/WhatsApp Number </label>
+                                </div>
+                            </div>
+                            <div class="form-group row  ">
+                                <div class="col-md-12 input-field">
+                                    <input type="text" class="form-control" id="cAlamat" name="cAlamat" required>
+                                    <label for="cAlamat" class="input-label">Alamat </label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-6 pe-3">
+                                    <label class="select-label " for="city">City </label>
+                                    <select name="city" id="city" class="form-control" required>
+                                        <option value="0" class="selected">Select City</option>
+                                            <option class="selected" value="tes"> tes</option>
+                                    </select>
+                                </div>
+                                <div class="col-6 ps-3  input-field">
+                                    <input type="text" class="form-control" id="cKode" name="cKode" required>
+                                    <label for="cKode" class="input-label">Postal Code </label>
+                                </div>
+                            </div>
+                            <div class="form-group row  ">
+                                <div class="col-md-12 ">
+                                    <label class="select-label" for="country">Country </label>
+                                    <select name="country" id="country" class="form-control" required>
+                                        <option value="Indonesia" class="selected">Indonesia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mb-5">
+                                <label for="c_ship_different_address" class="text-black" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address">
+                                    <input type="checkbox" value="1" id="c_ship_different_address" name="sSave" checked>
+                                    <h6>Save the information for the next time </h6>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button id="pay-button" type="submit" class="primary-button">Continue to Delivery</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row mb-5 ">
+                            <div class="col-md-12">
+                                <h2 class="h3 mb-3 order-title">Your Order</h2>
+                                <div class="p-5 border">
+                                    <table class="table mb-4 ">
+                                        <div class="cart-list ">
+                                            <div class=" overflow-auto detail-wrap p-3 order">
+                                                <div class="cart-item">
+                                                    <div class="item-img">
+                                                        <img src="assets/img/Product/1.jpg" alt="cart-item">
+                                                    </div>
+                                                    <div class="item-info-detail">
+                                                        <div class="item-title-detail">
+                                                            Pretentious Beige 
+                                                        </div>
+                                                        <div class="item-main-detail">
+                                                            <ul class="item-propertys-detail">
+                                                                <li class="property">Delivery Option : <span> Delivery </span></li>
+                                                                <li class="property">Delivery Date : <span> 12 Agustus 2020 </span></li>
+                                                                <li class="property">Reciepent Name : <span> Samuel </span></li>
+                                                                <li class="property">Reciepent Phone : <span> 23132819312 </span></li>
+                                                                <li class="property">Message : <span> Lorem ipsum dolor sit amet consectetur 
+                                                                    adipisicing elit. Neque repellendus aliquid nulla iste perspiciatis c
+                                                                    orporis velit laborum nobis sed reprehenderit, veritatis culpa laudantium hic, 
+                                                                    unde atque deleniti, eos magni asperiores? </span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-price-detail">
+                                                        <span class="price">Rp 1.800.000</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="cart-item">
+                                                    <div class="item-img">
+                                                        <img src="assets/img/Product/1.jpg" alt="cart-item">
+                                                    </div>
+                                                    <div class="item-info-detail">
+                                                        <div class="item-title-detail">
+                                                            Pretentious Beige 
+                                                        </div>
+                                                        <div class="item-main-detail">
+                                                            <ul class="item-propertys-detail">
+                                                                <li class="property">Delivery Option : <span> Delivery </span></li>
+                                                                <li class="property">Delivery Date : <span> 12 Agustus 2020 </span></li>
+                                                                <li class="property">Reciepent Name : <span> Samuel </span></li>
+                                                                <li class="property">Reciepent Phone : <span> 23132819312 </span></li>
+                                                                <li class="property">Message : <span> Lorem ipsum dolor sit amet consectetur 
+                                                                    adipisicing elit. Neque repellendus aliquid nulla iste perspiciatis c
+                                                                    orporis velit laborum nobis sed reprehenderit, veritatis culpa laudantium hic, 
+                                                                    unde atque deleniti, eos magni asperiores? </span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-price-detail">
+                                                        <span class="price">Rp 1.800.000</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <tr class="border-top pt-5">
+                                                <td> </td>
+                                                <td class="text-black">Ongkos Kirim</td>
+                                                <td id="ongkir" name="Ongkir" class="text-black">Rp. 0 </td>
+                                            </tr>
+                                            <tr>
+                                                <td> </td>
+                                                <td class="text-black">Service Charge 2%</td>
+                                                <td id="service" name="Ongkir" class="text-black">Rp. 0 </td>
+                                            </tr>
+                                            <tr>
+                                                <td class> </td>
+                                                <td class="text-black"><strong>Order Total</strong></td>
+                                                <td class="text-black"><strong id="total"> RP. fdas</strong>
+                                                </td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </form>
+        </div>
+</section>
+
+
+
+<section class="footer">
+      <footer>
+        <div class="container" >
+            <div class="brand-icon d-flex justify-content-center">
+              <a href=""><img src="assets/Media/Logo/Preciosa.png" alt="Logo"></a>
+            </div>
+          
+            <ul class="footer-menu ">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="product.html">About us</a>
+                </li>
+                <li>
+                    <a href="blog.html">Articles</a>
+                </li>
+
+                <li>
+                    <a href="about.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer-social ">
+                <li><a href=""> <i class="fa fa-telegram" aria-hidden="true"></i> </a></li>
+                <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                <li><a href=""> <i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright &copy;2020 by Samuel </p>
+    </div>
+</section>
+
+
+
+
+  <!--===============================================================================================-->
+	<script src="assets/vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<!--===============================================================================================-->
+	<script src="assets/vendor/select2/select2.min.js"></script>
+	<script src="assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="assets/vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="assets/vendor/slick/slick.min.js"></script>
+	<script src="assets/js/slick-custom.js"></script>
+
+	<!--===============================================================================================-->
+	<script src="assets/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="assets/vendor/sweetalert/sweetalert.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="assets/js/main.js"></script>
+
+	</body>
+	</html>

@@ -1,0 +1,393 @@
+@media (max-width: 1600px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 575px) {
+	.btn-back-to-top {
+		bottom: 0px;
+		right: 15px;
+	}
+}
+
+/*---------------------------------------------*/
+@media (max-width: 575px) {
+	.header-cart {
+		padding: 30px;
+	}
+
+	.header-cart-title {
+		padding-bottom: 35px;
+	}
+}
+
+@media (max-width: 991px) {
+	.how-pos2 {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
+@media (max-width: 991px) {
+	.big {
+		display: none;
+	}
+	.main_menu {
+		padding: 26px 0px;
+	}
+
+	.home_menu .main-menu-item {
+		padding-left: 0px;
+	}
+
+	.main_menu .main-menu-item {
+		text-align: left !important;
+		-webkit-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		-moz-transition: all 0.34;
+		transition: all 0.4s;
+
+		box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
+		-moz-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
+		-webkit-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
+		-o-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
+		-ms-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.18);
+	}
+
+	.main_menu .main-menu-item .nav-item {
+		padding: 10px 15px !important;
+	}
+
+	.main_menu .main-menu-item .nav-item .nav-link {
+		padding: 5px 15px !important;
+		color: #000;
+	}
+
+	.navbar-collapse {
+		z-index: 9999 !important;
+		position: absolute;
+		left: 0;
+		top: 40px;
+		width: 100%;
+		background-color: #fff;
+		text-align: center !important;
+	}
+
+	.dropdown .dropdown-menu {
+		transform: scale(1, 0);
+		display:none;
+		margin-top: 10px;
+	}
+
+	.dropdown:hover .dropdown-menu {
+		transform: scale(1);
+		display: block;
+		color: #000;
+	}
+
+	.dropdown .dropdown-item:hover {
+		color: #b09774 !important;
+	}
+
+	.navbar-brand img {
+		max-width: 100%;
+		margin: 0 auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -20px;
+		height: 4rem;
+	}
+
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		position: absolute;
+		left: 0;
+	}
+
+	.menu_icon i {
+		color: #000;
+	}
+
+	.main_menu a i {
+		margin-left: 13px;
+	}
+
+	.main_menu #search_input_box {
+		top: 61px;
+		width: 100%;
+	}
+
+	.mega-area .widget img {
+		display: none;
+	}
+
+	.main_menu .navbar .dropdown-menu .mdropdown {
+		font-size: 13px;
+		display: block;
+	}
+
+	.main_menu .navbar .dropdown-menu .maindrop {
+		display: none;
+	}
+
+
+	.blank {
+		display: none;
+	}
+
+	.subfresh,
+	.subproduct,
+	.suboccasionst,
+	.subevent {
+		padding-left: 15px;
+	}
+
+	.footer_overlay .footer .footer_social ul {
+		text-align: center;
+	}
+	.single_product_item .single_product_text .add_cart {
+		font-size: 1rem;
+	}
+	.single_product_item .single_product_text h5 {
+		font-size: 1rem;
+	}
+	.single_product_item .single_product_text p {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.main_menu {
+		padding: 20px 0px;
+	}
+	.single_product_item .single_product_text .add_cart {
+		font-size: 0.8rem;
+	}
+
+	.single_product_item .single_product_text h5 {
+		font-size: 0.8rem;
+	}
+	.single_product_item .single_product_text p {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.main_menu {
+		padding: 20px 0px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* line 13, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss */
+	.main_menu .main-menu-item ul li .nav-link {
+		padding: 35px 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.item-slick1 {
+		height: calc(100vh - 100px) !important;
+	}
+	.medium {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.next-slick1 {
+		right: 15px;
+	}
+
+	.prev-slick1 {
+		left: 15px;
+	}
+}
+
+@media (max-width: 575px) {
+	.caption-dots-slick1 {
+		font-size: 13px;
+	}
+
+	.wrap-slick1-dots {
+		bottom: 25px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.next-slick2 {
+		right: 0px;
+	}
+
+	.prev-slick2 {
+		left: 0px;
+	}
+}
+
+@media (max-width: 991px) {
+	.product_list .owl-nav {
+		right: 0;
+		padding: 20px 40px;
+	}
+}
+
+@media (max-width: 576) {
+	.product_list .single_product_item {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex: 19.5 0 0;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* line 20, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_product_list.scss */
+	.product_list .owl-nav {
+		right: 0;
+		padding: 20px 40px;
+	}
+}
+
+@media (max-width: 576px) {
+	/* line 7, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_instagram_photo.scss */
+	.instagram_photo .instagram_photo_iner {
+		justify-content: space-around;
+	}
+}
+
+/* line 14, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_instagram_photo.scss */
+.instagram_photo .instagram_photo_iner .single_instgram_photo {
+	flex: 19.5% 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+@media (max-width: 576px) {
+	/* line 14, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_instagram_photo.scss */
+	.instagram_photo .instagram_photo_iner .single_instgram_photo {
+		flex: 19.5 0 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.instagram_photo .instagram_photo_iner .single_instgram_photo:hover i {
+		top: 40%;
+	}
+}
+
+@media (max-width: 767px) {
+	/* line 25, ../sass/menu-settings.scss */
+	.navbar-default .navbar-nav > li > a {
+		font-size: 16px;
+		padding: 15px;
+		/*color: #575757;
+    border-top: 1px solid #ebebeb;*/
+	}
+}
+
+@media (min-width: 768px) {
+	/* line 559, ../sass/menu-settings.scss */
+	.default-skin.header {
+		background: #fff;
+		border-color: #5baadf transparent #ebebeb;
+	}
+}
+
+@media (max-width: 767px) {
+	/* line 212, ../sass/responsive.scss */
+	.nav .sub-menu,
+	.nav .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		box-shadow: none;
+	}
+
+	/* line 223, ../sass/responsive.scss */
+	.default-skin .nav .open > a,
+	.default-skin .nav .open > a:hover,
+	.default-skin .nav .open > a:focus {
+		padding: 10px;
+	}
+
+	/* line 230, ../sass/responsive.scss */
+	.navbar-nav .open .dropdown-menu {
+		border-width: 0 1px 1px;
+		border-style: solid;
+		border-color: #ebebeb;
+	}
+
+	/* line 240, ../sass/responsive.scss */
+	.nav-caret {
+		display: block;
+		position: absolute;
+		top: -10px;
+		right: 15px;
+		cursor: pointer;
+	}
+
+	/* line 247, ../sass/responsive.scss */
+	.sub-caret {
+		display: none;
+	}
+}
+
+@media (max-width: 574px) {
+	.product_list .secondproduct {
+		display: none;
+	}
+
+	.single_product_item .single_product_text h4 {
+		font-size: 19px;
+	}
+
+	.single_product_item .single_product_text h3 {
+		font-size: 19px;
+	}
+
+	.single_product_item a {
+		visibility: visible;
+	}
+}
+
+@media (max-width: 414px) {
+	.single_product_item .single_product_text h4 {
+		font-size: 17px;
+	}
+
+	.single_product_item .single_product_text h3 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 574px) {
+	.instagram_photo .section_header h2 {
+		font-size: 25px;
+	}
+
+	.instagram_photo .section_header h5 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 991px) {
+	/* line 56, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_instagram_photo.scss */
+	.instagram_photo .instagram_photo_iner .single_instgram_photo:hover i {
+		top: 40%;
+	}
+}
+
+@media (max-width: 991px) {
+	.footer_social {
+		margin-top: 15px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.copyright {
+		margin-top: 15px;
+	}
+}
